@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B54C3B1B1ECC5CE60028AFBC /* dataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B54C3B1A1ECC5CE60028AFBC /* dataStore.m */; };
 		B5BC5CF11EC6B19500C3E0E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BC5CF01EC6B19500C3E0E1 /* main.m */; };
 		B5BC5CF41EC6B19500C3E0E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BC5CF31EC6B19500C3E0E1 /* AppDelegate.m */; };
 		B5BC5CF71EC6B19500C3E0E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BC5CF61EC6B19500C3E0E1 /* ViewController.m */; };
@@ -16,6 +17,12 @@
 		B5BC5D021EC6B19500C3E0E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5BC5D001EC6B19500C3E0E1 /* LaunchScreen.storyboard */; };
 		B5BC5D0D1EC6B19500C3E0E1 /* myBubbleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BC5D0C1EC6B19500C3E0E1 /* myBubbleTests.m */; };
 		B5BC5D181EC6B19500C3E0E1 /* myBubbleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BC5D171EC6B19500C3E0E1 /* myBubbleUITests.m */; };
+		B5BE6B991EC9467D00002C17 /* bridgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BE6B971EC9467D00002C17 /* bridgeViewController.m */; };
+		B5BE6B9A1EC9467D00002C17 /* bridgeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5BE6B981EC9467D00002C17 /* bridgeViewController.xib */; };
+		B5C902681ECA8B34005B5E46 /* scoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C902661ECA8B34005B5E46 /* scoreViewController.m */; };
+		B5C902691ECA8B34005B5E46 /* scoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5C902671ECA8B34005B5E46 /* scoreViewController.xib */; };
+		B5F47EB11EC864FB0071E699 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F47EAF1EC864FB0071E699 /* ViewController2.m */; };
+		B5F47EB21EC864FB0071E699 /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5F47EB01EC864FB0071E699 /* ViewController2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B54C3B1A1ECC5CE60028AFBC /* dataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dataStore.m; sourceTree = "<group>"; };
+		B54C3B1C1ECC5D080028AFBC /* dataStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dataStore.h; sourceTree = "<group>"; };
 		B5BC5CEC1EC6B19500C3E0E1 /* myBubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myBubble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5BC5CF01EC6B19500C3E0E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B5BC5CF21EC6B19500C3E0E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +62,15 @@
 		B5BC5D131EC6B19500C3E0E1 /* myBubbleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myBubbleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5BC5D171EC6B19500C3E0E1 /* myBubbleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myBubbleUITests.m; sourceTree = "<group>"; };
 		B5BC5D191EC6B19500C3E0E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5BE6B961EC9467D00002C17 /* bridgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bridgeViewController.h; sourceTree = "<group>"; };
+		B5BE6B971EC9467D00002C17 /* bridgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bridgeViewController.m; sourceTree = "<group>"; };
+		B5BE6B981EC9467D00002C17 /* bridgeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = bridgeViewController.xib; sourceTree = "<group>"; };
+		B5C902651ECA8B34005B5E46 /* scoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scoreViewController.h; sourceTree = "<group>"; };
+		B5C902661ECA8B34005B5E46 /* scoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scoreViewController.m; sourceTree = "<group>"; };
+		B5C902671ECA8B34005B5E46 /* scoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = scoreViewController.xib; sourceTree = "<group>"; };
+		B5F47EAE1EC864FB0071E699 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		B5F47EAF1EC864FB0071E699 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		B5F47EB01EC864FB0071E699 /* ViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +123,20 @@
 			children = (
 				B5BC5CF21EC6B19500C3E0E1 /* AppDelegate.h */,
 				B5BC5CF31EC6B19500C3E0E1 /* AppDelegate.m */,
+				B54C3B1C1ECC5D080028AFBC /* dataStore.h */,
+				B54C3B1A1ECC5CE60028AFBC /* dataStore.m */,
 				B5BC5CF51EC6B19500C3E0E1 /* ViewController.h */,
 				B5BC5CF61EC6B19500C3E0E1 /* ViewController.m */,
 				B5BC5CF81EC6B19500C3E0E1 /* Main.storyboard */,
+				B5C902651ECA8B34005B5E46 /* scoreViewController.h */,
+				B5C902661ECA8B34005B5E46 /* scoreViewController.m */,
+				B5C902671ECA8B34005B5E46 /* scoreViewController.xib */,
+				B5F47EAE1EC864FB0071E699 /* ViewController2.h */,
+				B5F47EAF1EC864FB0071E699 /* ViewController2.m */,
+				B5BE6B961EC9467D00002C17 /* bridgeViewController.h */,
+				B5BE6B971EC9467D00002C17 /* bridgeViewController.m */,
+				B5BE6B981EC9467D00002C17 /* bridgeViewController.xib */,
+				B5F47EB01EC864FB0071E699 /* ViewController2.xib */,
 				B5BC5CFE1EC6B19500C3E0E1 /* Assets.xcassets */,
 				B5BC5D001EC6B19500C3E0E1 /* LaunchScreen.storyboard */,
 				B5BC5D031EC6B19500C3E0E1 /* Info.plist */,
@@ -253,8 +282,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5BC5D021EC6B19500C3E0E1 /* LaunchScreen.storyboard in Resources */,
+				B5F47EB21EC864FB0071E699 /* ViewController2.xib in Resources */,
 				B5BC5CFF1EC6B19500C3E0E1 /* Assets.xcassets in Resources */,
 				B5BC5CFA1EC6B19500C3E0E1 /* Main.storyboard in Resources */,
+				B5BE6B9A1EC9467D00002C17 /* bridgeViewController.xib in Resources */,
+				B5C902691ECA8B34005B5E46 /* scoreViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +312,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5BC5CF71EC6B19500C3E0E1 /* ViewController.m in Sources */,
+				B5BE6B991EC9467D00002C17 /* bridgeViewController.m in Sources */,
+				B5C902681ECA8B34005B5E46 /* scoreViewController.m in Sources */,
 				B5BC5CF41EC6B19500C3E0E1 /* AppDelegate.m in Sources */,
+				B5F47EB11EC864FB0071E699 /* ViewController2.m in Sources */,
+				B54C3B1B1ECC5CE60028AFBC /* dataStore.m in Sources */,
 				B5BC5CF11EC6B19500C3E0E1 /* main.m in Sources */,
 				B5BC5CFD1EC6B19500C3E0E1 /* myBubble.xcdatamodeld in Sources */,
 			);
@@ -518,6 +554,7 @@
 				B5BC5D1E1EC6B19500C3E0E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5BC5D1F1EC6B19500C3E0E1 /* Build configuration list for PBXNativeTarget "myBubbleTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +563,7 @@
 				B5BC5D211EC6B19500C3E0E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5BC5D221EC6B19500C3E0E1 /* Build configuration list for PBXNativeTarget "myBubbleUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +572,7 @@
 				B5BC5D241EC6B19500C3E0E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

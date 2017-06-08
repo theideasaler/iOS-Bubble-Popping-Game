@@ -2,8 +2,8 @@
 //  myBubbleTests.m
 //  myBubbleTests
 //
-//  Created by Rock_Neo on 13/5/17.
-//  Copyright © 2017 Rock_Neo. All rights reserved.
+//  Created by Wei Liu on 17/5/17.
+//  Copyright © 2017 Wei Liu. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
